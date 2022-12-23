@@ -25,9 +25,7 @@ class SmartPhone extends Computer {
   }
   searchemail(email) {
     arremail.push(this.email);
-    let index = [...arremail].indexOf(email);
-    console.log(index);
-    console.log(...arremail);
+    let index = arremail.includes(email);
     if (index > 0) {
       return `this smart phone is found`;
     } else {
