@@ -110,6 +110,7 @@ class fire extends Decorator {
 }
 
 let x = new Alien("Alien1", 100);
+console.log(x);
 
 x.attack();
 

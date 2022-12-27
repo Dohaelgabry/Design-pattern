@@ -74,10 +74,10 @@ class StudyBooks extends Books {
 }
 
 let nameBook = [
-  Jounals[_names],
-  Magzines[_names],
-  Magzines[_names],
-  StudyBooks[_names],
+  Jounals[names],
+  Magzines[names],
+  Magzines[names],
+  StudyBooks[names],
 ];
 ///////Libraian
 

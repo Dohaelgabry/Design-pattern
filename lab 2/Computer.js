@@ -69,3 +69,14 @@ class Laptop extends Computer {
            hard_disk_type:${this.hard_disk_type} `;
   }
 }
+
+let v = new Laptop(
+  20000,
+  "820sd",
+  "192.186.0.5",
+  "00-1B-63-84-45-E6",
+  "lorem...",
+  "doaaGamal1254@gmail.come"
+);
+
+console.log(v.show());
