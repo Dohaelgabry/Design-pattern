@@ -25,6 +25,7 @@ class Employee{
 
 class HourlyEmployee extends Employee{
     constructor(payRate,hoursWorked){
+        super()
         this.payRate=payRate;
         this.hoursWorked=hoursWorked;
     }
